@@ -1,0 +1,43 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+  int first_number, second_number, sum;
+    
+  cout << "Enter two integers: ";
+  cin >> first_number >> second_number;
+
+  // sum of two numbers in stored in variable sumOfTwoNumbers
+  sum = first_number + second_number;
+
+  /* it is a 
+  multiple line comment */
+
+  if(first_number==second_number)
+  {
+    cout<<first_number<<endl;
+  }
+  if(first_number!=second_number)
+  {
+    cout<<first_number<<endl;
+  }
+  else if(first_number==second_number)
+  {
+    cout<<first_number<<endl;
+  }
+  if(first_number!=second_number)
+  {
+    cout<<first_number<<endl;
+  }
+
+  for(i=0;i<5;i++)
+  {
+    cout<<i<<endl;
+  }
+
+  // prints sum 
+  cout << first_number << " + " <<  second_number << " = " << sum;     
+
+  return 0;
+}
